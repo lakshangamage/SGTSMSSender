@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sprintylab.com.sgtsmssender.view.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView2"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:text='Enter the number of the vote receiver and the number of sms to be sent and click "Start Sending"'
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+        <EditText
+            android:layout_below="@id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/txt_vot"
+            android:layout_width="313dp"
+            android:layout_height="69dp"
+            android:ems="10"
+            android:hint="Votting No. (Eg. 20)"
+            android:inputType="number"
+            android:textColorHint="@android:color/primary_text_light"/>
+
+        <EditText
+            android:layout_marginTop="20dp"
+        android:layout_below="@id/txt_vot"
+            android:layout_centerHorizontal="true"
+        android:id="@+id/txt_no"
+        android:layout_width="313dp"
+        android:layout_height="69dp"
+        android:ems="10"
+        android:hint="No. of SMSs"
+        android:inputType="number"
+        android:textColorHint="@android:color/primary_text_light" />
+
+
+    <Button
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/txt_no"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_send"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="214dp"
+        android:layout_height="53dp"
+        android:background="@color/colorPrimary"
+        android:text="Start Sending"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+        <TextView
+
+            android:layout_below="@id/btn_send"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView3"
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:text="*Click on 'Remember Choice' if prompted to avoid inconveniences. "
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="136dp"
+            android:layout_height="108dp"
+            app:srcCompat="@drawable/sprintylogo"
+            tools:layout_editor_absoluteY="415dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

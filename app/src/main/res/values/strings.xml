@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SGTSMSSender</string>
+    <string name="title_activity_main">MalChat</string>
+    <string name="already_registered">Existing User</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scrolling_test">ScrollingActivityTest</string>
+    <string name="large_text">  </string>
+</resources>
