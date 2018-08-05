@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SGTSMSSender</string>
+    <string name="app_name">SMS Voter</string>
     <string name="title_activity_main">MalChat</string>
     <string name="already_registered">Existing User</string>
     <string name="action_settings">Settings</string>

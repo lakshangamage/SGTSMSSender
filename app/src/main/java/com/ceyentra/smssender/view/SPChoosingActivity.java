@@ -1,4 +1,4 @@
-package sprintylab.com.sgtsmssender.view;
+package com.ceyentra.smssender.view;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,7 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-import sprintylab.com.sgtsmssender.R;
+import com.ceyentra.smssender.R;
+
 
 public class SPChoosingActivity extends AppCompatActivity {
     private Button btn_d;

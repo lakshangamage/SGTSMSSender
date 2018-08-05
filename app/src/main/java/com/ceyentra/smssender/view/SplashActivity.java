@@ -1,4 +1,4 @@
-package sprintylab.com.sgtsmssender.view;
+package com.ceyentra.smssender.view;
 
 import android.Manifest;
 import android.animation.Animator;
@@ -19,7 +19,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
-import sprintylab.com.sgtsmssender.R;
+import com.ceyentra.smssender.R;
 
 
 public class SplashActivity extends AppCompatActivity{
@@ -86,8 +86,8 @@ public class SplashActivity extends AppCompatActivity{
         //startService(new Intent(this, SMSReceivingService.class));
         //SharedPreferences mPrefs = getSharedPreferences("malchat.username", Context.MODE_PRIVATE);
         //String username = mPrefs.getString("username", null);
-            Intent intent = new Intent(this, SPChoosingActivity.class);
-            startActivity(intent);
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
             finish();
     }
     private void showMessageOKCancel(String message, DialogInterface.OnClickListener okListener) {
